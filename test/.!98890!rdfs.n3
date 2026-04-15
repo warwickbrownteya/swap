@@ -1,0 +1,24 @@
+# Base URI of process is file:///devel/WWW/2000/10/swap/test/
+# Input from  file:/devel/WWW/2000/10/swap/test/daml-pref.n3
+# Input from  http://www.w3.org/2000/01/rdf-schema
+
+#  Notation3 generation by
+#       notation3.py,v 1.36 2000/12/09 03:44:18 timbl Exp
+
+     @prefix ex: <http://www.daml.org/2001/03/daml-ex#> .
+     @prefix ont: <http://www.daml.org/2001/03/daml+oil#> .
+     @prefix : <http://www.w3.org/2000/01/rdf-schema#> .
+     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    
+    rdf:subject     a rdf:Property;
+         :label "subject",
+                "sujet";
+         :domain rdf:Statement;
+         :range :Resource .
+    
+    rdf:value     a rdf:Property;
+         :label "object",
+                "value" .
+    
+    rdf:Property     a :Class;
+         :label "Property",
